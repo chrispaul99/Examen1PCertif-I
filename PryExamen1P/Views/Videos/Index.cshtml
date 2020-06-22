@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BEUBiblioteca.Video>
+
+    <h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Añadir nuevo video", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_publi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.formato)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.duracion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Categoria1.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_publi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.formato)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.duracion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Categoria1.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.idvideo }) |
+            @Html.ActionLink("Detalle", "Details", new { id=item.idvideo }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.idvideo })
+        </td>
+    </tr>
+}
+
+</table>

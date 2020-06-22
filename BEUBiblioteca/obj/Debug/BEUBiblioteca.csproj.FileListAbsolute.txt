@@ -1,0 +1,11 @@
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\BEUBiblioteca.dll.config
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\BEUBiblioteca.dll
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\BEUBiblioteca.pdb
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\EntityFramework.dll
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\EntityFramework.xml
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\obj\Debug\BEUBiblioteca.csproj.CoreCompileInputs.cache
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\obj\Debug\BEUBiblioteca.csproj.CopyComplete
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\obj\Debug\BEUBiblioteca.dll
+D:\ProyectoCert\Examen1PCertif-I\BEUBiblioteca\obj\Debug\BEUBiblioteca.pdb
